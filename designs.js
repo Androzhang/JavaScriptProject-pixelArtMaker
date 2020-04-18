@@ -31,7 +31,7 @@ function fillColor() {
 
 //erase color
 function eraseColor() {
-    this.style.background = '#fff'
+    this.style.background = '#fff';
 }
 
 
