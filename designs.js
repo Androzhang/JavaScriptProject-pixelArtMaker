@@ -2,9 +2,9 @@
 function makeGrid(row, column) {
     const $canvas = document.getElementById("pixelCanvas");
     $canvas.innerHTML = "";
-    for (let i = 0; i <= row; i ++) {
+    for (let i = 0; i < row; i ++) {
         let newRow = $canvas.insertRow();
-        for (let j = 0; j <= column; j ++) {
+        for (let j = 0; j < column; j ++) {
             let newCell = newRow.insertCell();
             newCell.onclick = fillColor;
             newCell.ondblclick = eraseColor;
